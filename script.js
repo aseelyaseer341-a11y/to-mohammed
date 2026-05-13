@@ -26,3 +26,6 @@ for(let i=0; i<100;i++){
     star.style.background ="white"
     starscontainer.appendChild(star);
 }
+document.body.addEventListener('click',function(){
+    document.body.addElementById('myaudio').play();
+},{ once: true});
